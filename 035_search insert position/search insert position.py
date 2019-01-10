@@ -18,6 +18,7 @@ class Solution(object):
                 return mid
         return head
 #another way
+'''
 class Solution:
     def searchInsert(self, nums, target):
         """
@@ -36,3 +37,4 @@ class Solution:
             if nums[i-1] < target < nums[i]:
                 return i
         return len(nums)
+'''
